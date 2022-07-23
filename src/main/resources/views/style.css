@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+	font: 100% Lucida Sans, Verdana;
+	margin: 15px;
+	line-height: 30px;
+}
+
+#topo{
+	border-radius: 12px;
+	margin: 5px;
+	background-color: #04AA6D;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+#corpo{
+	position: relative;
+	overflow: auto;
+	margin: 5px;
+}
+
+#menu{
+	width: 220px;
+	float: left;
+	background-color: #04AA6D;
+	color: white;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+#conteudo{
+	background-color: #04AA6D;
+	color: white;
+	padding: 5px;
+	border-radius: 12px;
+	width: 1080px;
+	float: right;
+}
+
+#rodape{
+	border-radius: 12px;
+	margin: 5px;
+	background-color: #04AA6D;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
