@@ -1,17 +1,17 @@
-@charset "UTF-8";
 body{
 	font: 100% Lucida Sans, Verdana;
 	margin: 15px;
 	line-height: 30px;
 }
 
+
 #topo{
-	border-radius: 12px;
-	margin: 5px;
-	background-color: #04AA6D;
+	border-radius: 15px;
+	background-color: #04aa6d;
 	padding: 10px;
 	color: white;
 	text-align: center;
+	margin: 5px;
 }
 
 #corpo{
@@ -23,26 +23,26 @@ body{
 #menu{
 	width: 220px;
 	float: left;
-	background-color: #04AA6D;
+	background-color: #04aa6d;
 	color: white;
 	padding: 5px;
-	border-radius: 12px;
+	border-radius: 15px;
 }
 
 #conteudo{
-	background-color: #04AA6D;
+	background-color: #04aa6d;
 	color: white;
 	padding: 5px;
-	border-radius: 12px;
+	border-radius: 15px;
 	width: 1080px;
 	float: right;
 }
 
 #rodape{
-	border-radius: 12px;
-	margin: 5px;
-	background-color: #04AA6D;
+	border-radius: 15px;
+	background-color: #04aa6d;
 	padding: 10px;
 	color: white;
 	text-align: center;
+	margin: 5px;
 }
