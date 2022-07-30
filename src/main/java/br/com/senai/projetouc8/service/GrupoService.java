@@ -7,5 +7,7 @@ import br.com.senai.projetouc8.orm.Grupos;
 public interface GrupoService {
 	
 	public List<Grupos> listarGrupos();
+	
+	public void apagarGrupos(Integer id);
 
 }

@@ -17,5 +17,9 @@ public class GrupoServiceCRUD implements GrupoService{
 	public List<Grupos> listarGrupos(){
 		return (List<Grupos>) repository.findAll();
 	}
+	
+	public void apagarGrupos(Integer id) {
+		repository.deleteById(id);
+	}
 
 }
