@@ -9,5 +9,7 @@ public interface GrupoService {
 	public List<Grupos> listarGrupos();
 	
 	public void apagarGrupos(Integer id);
+	
+	public Grupos salvarGrupos(Grupos grupos);
 
 }

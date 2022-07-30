@@ -21,5 +21,9 @@ public class GrupoServiceCRUD implements GrupoService{
 	public void apagarGrupos(Integer id) {
 		repository.deleteById(id);
 	}
+	
+	public Grupos salvarGrupos(Grupos grupos) {
+		return repository.save(grupos);
+	}
 
 }
