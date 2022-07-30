@@ -41,4 +41,21 @@ public class GrupoController {
 		servico.salvarGrupos(grupos);
 		return "redirect:/grupos";
 	}
+	
+	@GetMapping({"/grupos/editar/{id}"})
+	public String editarGrupos(@PathVariable Integer id, Model modelo) {
+		modelo.addAttribute("grupos", servico.consultarGruposId(id));
+		return "editarGrupos";
+	}
+	
+	@PostMapping("/grupos/{id}")
+	public String atualizarGrupos(@PathVariable Integer id, @ModelAttribute("grupos") Grupos grupos, Model modelo) {
+		Grupos group = servico.consultarGruposId(id);
+		group.setId(id);
+		group.setGrupo(grupos.getGrupo());
+		group.setAtivo(grupos.getAtivo());
+		group.setDescricao(grupos.getDescricao());
+		servico.atualizarGrupos(group);
+		return "redirect:/grupos";
+	}
 }

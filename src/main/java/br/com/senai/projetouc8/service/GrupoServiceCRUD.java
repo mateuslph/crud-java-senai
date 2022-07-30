@@ -25,5 +25,13 @@ public class GrupoServiceCRUD implements GrupoService{
 	public Grupos salvarGrupos(Grupos grupos) {
 		return repository.save(grupos);
 	}
+	
+	public Grupos consultarGruposId(Integer id) {
+		return repository.findById(id).get();
+	}
+	
+	public Grupos atualizarGrupos(Grupos grupos) {
+		return repository.save(grupos);
+	}
 
 }
