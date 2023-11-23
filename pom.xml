@@ -13,7 +13,7 @@
 	<name>projetouc8</name>
 	<description>Projeto da Disciplina de Desenvolvimento - UC8</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
